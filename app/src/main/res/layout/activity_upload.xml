@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="@drawable/nav_bg">
+        <ImageView
+            android:id="@+id/back_upload"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:src="@drawable/left"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/White"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/add_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择文件"
+            android:textColor="@color/White"
+            android:textSize="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            />
+    </RelativeLayout>
+<RelativeLayout
+android:id="@+id/rl_upload"
+android:layout_below="@+id/upload_actionbar"
+android:layout_width="match_parent"
+android:layout_height="96dp"
+android:background="@color/White"
+
+
+    >
+
+<ImageView
+    android:id="@+id/iv_main"
+    android:layout_width="64dp"
+    android:layout_height="64dp"
+    android:layout_centerVertical="true"
+    android:background="@mipmap/ic_launcher"
+    android:layout_marginLeft="5dp"
+    android:scaleType="centerCrop" />
+
+<TextView
+    android:id="@+id/tv_videoname"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/iv_main"
+    android:textSize="20dp"
+    android:layout_marginLeft="16dp"
+    android:layout_toRightOf="@+id/iv_main"
+    android:text="请选择文件" />
+<Button
+    android:id="@+id/upload_pause"
+    android:layout_width="60dp"
+    android:layout_height="40dp"
+    android:background="@drawable/upload"
+    android:layout_alignParentEnd="true"
+    android:layout_centerVertical="true"
+    android:layout_marginRight="10dp"/>
+
+<ProgressBar
+    android:id="@+id/upload_progress"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/tv_videoname"
+    android:layout_toLeftOf="@+id/upload_pause"
+    android:layout_below="@+id/tv_videoname"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="10dp"
+    android:indeterminate="false"
+    android:max="100"
+    android:progress="0" />
+    <TextView
+        android:id="@+id/tv_upload_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_below="@+id/upload_progress"
+        android:layout_alignLeft="@+id/upload_progress"/>
+</RelativeLayout>
+
+</LinearLayout>

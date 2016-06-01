@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="73dp"
+    android:background="@drawable/nav_bg">
+    <ImageView
+        android:id="@+id/serch"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/search"/>
+    <TextView
+        android:id="@+id/zero_base"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="零基础"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="15dp"
+        android:layout_toRightOf="@id/serch"
+        android:textColor="@color/White"/>
+    <TextView
+        android:id="@+id/jinjie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="进阶"
+        android:layout_marginTop="35dp"
+        android:textSize="15dp"
+        android:textColor="@color/White"/>
+    <TextView
+        android:id="@+id/topplay"
+android:layout_toRightOf="@+id/jinjie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="高手"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="15dp"
+        android:textColor="@color/White"/>
+
+    <Spinner
+        android:id="@+id/Spinner_leibie"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/category_down"></Spinner>
+</RelativeLayout>

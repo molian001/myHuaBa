@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:id="@+id/main_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:gravity="center_horizontal"
+        android:background="@color/White"
+        android:layout_alignParentBottom="true"
+        >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/Heblack"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+<Button
+    android:id="@+id/Hua_shi"
+    android:layout_width="25dp"
+    android:layout_height="38dp"
+    android:layout_marginLeft="10dp"
+    android:onClick="onTabSelect"
+    android:background="@drawable/btn_huashi_selecter"
+    />
+        <Button
+            android:id="@+id/Zhishi"
+            android:layout_width="25dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="50dp"
+            android:onClick="onTabSelect"
+            android:background="@drawable/btn_zhishi_selecter"
+
+/>
+
+        <Button
+            android:id="@+id/found"
+            android:layout_width="25dp"
+            android:layout_height="38dp"
+            android:onClick="onTabSelect"
+            android:background="@drawable/btn_found_selecter"
+            android:layout_marginLeft="135dp"/>
+        <Button
+            android:id="@+id/mine"
+            android:layout_width="25dp"
+            android:layout_height="38dp"
+            android:onClick="onTabSelect"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/btn_wode_selecter"
+            />
+
+
+    </LinearLayout>
+        <Button
+            android:id="@+id/center_button"
+            android:layout_width="70dp"
+            android:layout_height="46dp"
+            android:background="@drawable/video"
+            android:onClick="onTabSelect"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/White"
+        android:layout_above="@+id/main_bottom" />
+</RelativeLayout>

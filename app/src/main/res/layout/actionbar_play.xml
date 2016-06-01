@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="73dp"
+    android:background="@drawable/nav_bg">
+    <ImageView
+        android:id="@+id/back_video_play"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:src="@drawable/left"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"/>
+    <ImageView
+        android:id="@+id/video_drawer_avater"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toEndOf="@+id/back_video_play"
+        android:layout_centerVertical="true"
+        android:src="@drawable/favicon"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/video_drawer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="白冰洋"
+        android:textColor="@color/White"
+        android:textSize="15dp"
+        android:layout_toEndOf="@+id/video_drawer_avater"
+        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true"
+       />
+</RelativeLayout>
