@@ -1,5 +1,7 @@
 package com.example.zyj010.huaba.ui;
 
+import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -43,6 +45,7 @@ public class RegisterAcitivity extends AppCompatActivity {
     String userdate="123";
     private static AsyncHttpClient httpClient=new AsyncHttpClient();
     private User user;
+    private Context ct=this;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -194,6 +197,8 @@ public class RegisterAcitivity extends AppCompatActivity {
                     @Override
                     public void onSuccess(int statusCode, Header[] headers, String responseString) {
                         Toast.makeText(getApplicationContext(),"成功",Toast.LENGTH_SHORT).show();
+                        Intent intent=new Intent(ct,LoginActivity.class);
+                        startActivity(intent);
                     }
                 });
 
