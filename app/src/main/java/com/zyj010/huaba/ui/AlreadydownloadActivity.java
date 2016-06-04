@@ -3,6 +3,9 @@ package com.zyj010.huaba.ui;
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Environment;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 import com.zyj010.huaba.R;
@@ -22,6 +25,7 @@ public class AlreadydownloadActivity extends Activity {
     private List<Video> videos=new ArrayList<Video>();
     private ListView list_courses;
     private download_mycourse_adpter adpter;
+    private ImageView back;
     String path= Environment.getExternalStorageDirectory()+"/HuaBa/";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +36,13 @@ public class AlreadydownloadActivity extends Activity {
 
     private void init() {
         list_courses= (ListView) findViewById(R.id.list_downloaded_courses);
+        back= (ImageView) findViewById(R.id.back_havedownloaded);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
         getCourses();
         adpter=new download_mycourse_adpter(this,courses);
         list_courses.setAdapter(adpter);
