@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <include
+        android:id="@+id/common_actionbar"
+        layout="@layout/actionbar_huashi" />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView" android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/main_background"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:background="@drawable/index_background_1_w">
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:src="@color/backgray"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="227.5dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人气画家"
+            android:textColor="@color/text_color_black"
+            android:textSize="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/textView" />
+        <ImageView
+            android:id="@+id/green_tiao"
+            android:layout_width="3dp"
+            android:layout_height="15dp"
+            android:background="@color/Zhuti_green"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+           />
+        <TextView
+            android:id="@+id/more_huajia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更多画家  >"
+            android:textSize="10dp"
+            android:textColor="@color/text_color_gray"
+            android:layout_marginRight="20dp"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignParentEnd="true"
+
+        />
+        <Button
+            android:id="@+id/btn_huajia_1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/p11"
+            android:layout_marginLeft="40dp"
+            />
+        <Button
+            android:id="@+id/btn_huajia_2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/btn_huajia_1"
+            android:background="@drawable/p12"
+            android:layout_marginLeft="30dp"
+
+            />
+        <Button
+            android:id="@+id/btn_huajia_3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/p13"
+            android:layout_marginLeft="30dp"
+            android:layout_toEndOf="@+id/btn_huajia_2"
+            />
+        <Button
+            android:id="@+id/btn_huajia_4"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+
+            android:background="@drawable/p21"
+            android:layout_below="@+id/btn_huajia_1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            />
+        <Button
+            android:id="@+id/btn_huajia_5"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/btn_huajia_2"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/p22"
+            android:layout_alignEnd="@+id/btn_huajia_2"
+
+            />
+        <Button
+            android:id="@+id/btn_huajia_6"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/p23"
+            android:layout_below="@+id/btn_huajia_3"
+            android:layout_alignEnd="@+id/btn_huajia_3"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:src="@color/backgray"/>
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <TextView
+
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="热门课程"
+                  android:textColor="@color/text_color_black"
+                  android:textSize="15dp"
+                  android:layout_marginLeft="30dp"
+                  android:layout_marginTop="15dp"
+                   />
+              <ImageView
+                  android:id="@+id/green_tiao2"
+                  android:layout_width="3dp"
+                  android:layout_height="15dp"
+                  android:background="@color/Zhuti_green"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginTop="18dp"
+                  />
+              <ListView
+                  android:id="@+id/listview_courses"
+                  android:layout_width="match_parent"
+                  android:layout_height="fill_parent"
+                  android:layout_below="@+id/green_tiao2"
+                  android:layout_marginTop="15dp"></ListView>
+          </RelativeLayout>
+      </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

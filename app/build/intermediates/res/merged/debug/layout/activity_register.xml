@@ -1,0 +1,101 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_shuicai"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="70dp"
+                android:fitsSystemWindows="true"
+                android:src="@drawable/logo_green" />
+
+
+            <EditText
+
+                android:id="@+id/register_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:drawableLeft="@drawable/user"
+                android:drawablePadding="20dp"
+                android:hint="请输入常用手机号"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColorHint="@color/LightGrey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+
+                    android:id="@+id/register_yanzheng"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/identifycode"
+                    android:drawablePadding="20dp"
+                    android:hint="验证码"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColorHint="@color/LightGrey" />
+
+                <Button
+                    android:id="@+id/btn_send_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_getcode" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/register_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/password"
+                android:drawablePadding="20dp"
+                android:hint="密码，6-12位字符"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:paddingTop="20dp"
+                android:singleLine="true"
+                android:textColorHint="@color/LightGrey" />
+
+
+            <Button
+                android:id="@+id/finish_register"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:onClick="regist"
+                android:background="@drawable/btn_login_selecter"
+                android:text="注        册"
+                android:textColor="@color/DimGray"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>
