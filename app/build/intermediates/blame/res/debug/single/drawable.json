@@ -1,0 +1,546 @@
+[
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/draft.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/draft.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/c4.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/c4.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/heart.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/heart.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/knowl_pre.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/knowl_pre.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/sidebar_background.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/sidebar_background.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/upload.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/upload.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/favicon.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/favicon.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/my_collection.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/my_collection.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/shape_button_login_n.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/shape_button_login_n.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/cp.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/cp.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/c3.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/c3.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/mediacontroller_button.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/myHuaBa/vitamio/unspecified/res/drawable/mediacontroller_button.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/left.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/left.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/set_up.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/set_up.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/btn_more_downloadcourses.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/btn_more_downloadcourses.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/ocean.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/ocean.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/click_fans.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/click_fans.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/index_background_1_w.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/index_background_1_w.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/shape_button_login_p.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/shape_button_login_p.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/found_pre.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/found_pre.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/studio.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/studio.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/weibo_login.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/weibo_login.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/c5.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/c5.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/c2.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/c2.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/download_green.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/download_green.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/menue_small_1.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/menue_small_1.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/search_form.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/search_form.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/play1.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/play1.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/login_shuicai.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/login_shuicai.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/logo_green.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/logo_green.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/mine_pre.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/mine_pre.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/user.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/user.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/start.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/start.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/c23.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/c23.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/btn_huashi_selecter.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/btn_huashi_selecter.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/login_background.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/login_background.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/identifycode.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/identifycode.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/beauty.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/beauty.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/love.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/love.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/pencil.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/pencil.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/getcode.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/getcode.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/downclass.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/downclass.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/download.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/download.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/nav_bg.jpg",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/nav_bg.jpg"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/btn_wode_selecter.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/btn_wode_selecter.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/vedio_bg.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/vedio_bg.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/video_volumn_bg.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/video_volumn_bg.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/play.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/play.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/repost.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/repost.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/oval.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/oval.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/set_up1.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/set_up1.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/b13.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/b13.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/p21.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/p21.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/btn_zhishi_selecter.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/btn_zhishi_selecter.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/btn_mine_selected.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/btn_mine_selected.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/match2.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/match2.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/review.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/review.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/c1.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/c1.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/show_head_toast_bg.9.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/show_head_toast_bg.9.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/btn_loginout.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/btn_loginout.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/found.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/found.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/down.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/down.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/a12.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/a12.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/close.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/close.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/password.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/password.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/default_user.jpg",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/default_user.jpg"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/click_works.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/click_works.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/video.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/video.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/scrubber_progress_horizontal_holo_dark.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/myHuaBa/vitamio/unspecified/res/drawable/scrubber_progress_horizontal_holo_dark.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/p11.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/p11.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/btn_found_selecter.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/btn_found_selecter.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/clickgetcode.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/clickgetcode.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/a11.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/a11.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/user_picture.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/user_picture.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/p12.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/p12.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/foot.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/foot.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/match1.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/match1.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/p23.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/p23.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/video2.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/video2.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/qq_login.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/qq_login.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/click_exitlogin.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/click_exitlogin.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/scrubber_control_selector_holo.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/myHuaBa/vitamio/unspecified/res/drawable/scrubber_control_selector_holo.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/video_num_front.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/video_num_front.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/back.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/back.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/knowl.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/knowl.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/mine.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/mine.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/btn_video_start.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/btn_video_start.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/category_down.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/category_down.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/p13.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/p13.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/right.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/right.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/btn_login_selecter.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/btn_login_selecter.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/btn_getcode.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/btn_getcode.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/studio_pre.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/studio_pre.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/up.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/up.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/default_mine_background.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/default_mine_background.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/p22.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/p22.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/files.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/files.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/c22.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/c22.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/btn_size.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/myHuaBa/vitamio/unspecified/res/drawable/btn_size.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/btn_video_download.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/btn_video_download.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/video_num_bg.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/video_num_bg.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/suggest.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/suggest.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/b21.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/b21.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/exitlogin.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/exitlogin.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/start_green.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/start_green.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/video_brightness_bg.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/video_brightness_bg.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/search.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/search.png"
+    },
+    {
+        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/drawable/index_background_1.png",
+        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/drawable/index_background_1.png"
+    }
+]

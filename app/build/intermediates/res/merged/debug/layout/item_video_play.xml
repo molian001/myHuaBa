@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+<TextView
+    android:id="@+id/vedio_inf"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="01 色彩静物的三个重点"
+    android:textSize="15dp"
+    android:textColor="@color/Gray"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="30dp"
+
+    />
+
+    <Button
+        android:id="@+id/btn_video_download"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_video_download"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        />
+    <Button
+        android:id="@+id/btn_video_start"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_video_start"
+        android:layout_toLeftOf="@+id/btn_video_download"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        />
+    <ProgressBar
+        android:id="@+id/download_progress"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_video_download"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="0"
+        android:visibility="gone"
+        />
+</RelativeLayout>
