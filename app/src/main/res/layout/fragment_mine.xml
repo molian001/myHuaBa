@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="193dp"
     android:background="@drawable/default_mine_background">
-    <com.example.zyj010.huaba.widget.CircleImageView
+    <com.zyj010.huaba.widget.CircleImageView
         android:id="@+id/mine_user"
         android:layout_width="76dp"
         android:layout_height="76dp"

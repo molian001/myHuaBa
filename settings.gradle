@@ -1,2 +1,2 @@
-include ':app'
-include ':app:libs:vitamio'
+include ':app', ':library'
+include ':vitamio'

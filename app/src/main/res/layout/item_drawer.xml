@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="95dp"
         >
-<com.example.zyj010.huaba.widget.CircleImageView
+<com.zyj010.huaba.widget.CircleImageView
     android:id="@+id/drawer_avater"
     android:layout_width="75dp"
     android:layout_height="75dp"
