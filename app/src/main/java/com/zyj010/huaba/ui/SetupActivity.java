@@ -37,7 +37,10 @@ public class SetupActivity extends Activity implements View.OnClickListener{
         }
         if (v==outlogin){
             AppPreferences.getInstance().clearAll();
-            startActivity(new Intent(this,LoginActivity.class));
+            Intent intent=new Intent(this,LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+            System.exit(0);
         }
     }
 }
