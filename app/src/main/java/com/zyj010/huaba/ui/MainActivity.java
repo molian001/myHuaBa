@@ -26,12 +26,18 @@ public class MainActivity extends FragmentActivity {
     private int currentindex=0;
 
     @Override
+    protected void onSaveInstanceState(Bundle outState) {
+//        super.onSaveInstanceState(outState);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (TextUtils.isEmpty(AppPreferences.getInstance().getAuth())) {
             startActivity(new Intent(this, LoginActivity.class));
             finish();
         }
+
         setContentView(R.layout.activity_index);
 
         initView();
