@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
-        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "F:\\ANDROID WORK\\HuaBa\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\logo_huab.jpg",
+        "source": "F:\\ANDROID WORK\\HuaBa\\app\\src\\main\\res\\mipmap-hdpi\\logo_huab.jpg"
     },
     {
-        "merged": "/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/logo_huab.jpg",
-        "source": "/home/runzii/文档/code/Studio/myHuaBa/app/src/main/res/mipmap-hdpi/logo_huab.jpg"
+        "merged": "F:\\ANDROID WORK\\HuaBa\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "F:\\ANDROID WORK\\HuaBa\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
 ]

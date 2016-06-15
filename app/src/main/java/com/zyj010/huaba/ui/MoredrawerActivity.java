@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -29,6 +30,7 @@ public class MoredrawerActivity extends Activity{private ListView sortListView;
     private SideBar sideBar;
     private TextView dialog;
     private SortAdapter adapter;
+    private ImageView back;
 
 
     /**
@@ -50,6 +52,7 @@ public class MoredrawerActivity extends Activity{private ListView sortListView;
     }
 
     private void initViews() {
+        back= (ImageView) findViewById(R.id.back_drawer_world);
         //实例化汉字转拼音类
         characterParser = CharacterParser.getInstance();
 
@@ -59,6 +62,12 @@ public class MoredrawerActivity extends Activity{private ListView sortListView;
         dialog = (TextView) findViewById(R.id.dialog);
         sideBar.setTextView(dialog);
 
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
         //设置右侧触摸监听
         sideBar.setOnTouchingLetterChangedListener(new SideBar.OnTouchingLetterChangedListener() {
 

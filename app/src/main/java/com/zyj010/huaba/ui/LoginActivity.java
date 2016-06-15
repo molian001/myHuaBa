@@ -81,10 +81,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             forget();
 
         }
+
     }
 
     private void forget() {
-        Intent intent=new Intent(LoginActivity.this,forgetpassword.class);
+        Intent intent=new Intent(LoginActivity.this,ForgetpasswordActivity.class);
         startActivity(intent);
     }
 
@@ -163,6 +164,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             mProgressView.setVisibility(show ? View.VISIBLE : View.GONE);
 
         }
+    }
+    @Override
+    public void onBackPressed() {
+        System.exit(0);
     }
 }
 

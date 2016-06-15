@@ -2,6 +2,17 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
    android:layout_width="match_parent"
     android:layout_height="wrap_content">
+    <ImageButton
+        android:id="@+id/ibtn_downloaded_videos_delete_video"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/pane"
+        android:src="@drawable/iv_delete_selecter"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        />
     <TextView
         android:id="@+id/download_vedio_inf"
         android:layout_width="wrap_content"
@@ -23,7 +34,7 @@
         android:layout_marginTop="10dp"
         android:layout_alignParentEnd="true"
         android:layout_marginRight="30dp"
-        android:background="@drawable/btn_video_start"
+        android:background="@drawable/btn_download_videoplay"
         android:clickable="true"
         />
 

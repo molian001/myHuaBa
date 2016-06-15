@@ -31,8 +31,9 @@ import rx.schedulers.Schedulers;
 public class NetworkWrapper {
 
     private ApiService apiService;
+    private ApiService apiService_login;
 
-    public static final String BASE_URL = "http://" + AppSettings.SERVER_IP + ":" + AppSettings.SERVER_PORT + "/";
+    public static final String BASE_URL = "http://" + AppSettings.SERVER_IP + ":" + AppSettings.SERVER_PORT + "/api/";
 
     public static final String userAndPassword = "paintmooc:secret";
     public static final String base_authorization = "Basic " + Base64.encodeToString(userAndPassword.getBytes(), Base64.NO_WRAP);
@@ -40,7 +41,7 @@ public class NetworkWrapper {
     private static final int DEFAULT_TIMEOUT = 5;
 
     private Retrofit retrofit;
-
+    private Retrofit retrofit_login;
     //构造方法私有
     private NetworkWrapper() {
         //手动创建一个OkHttpClient并设置超时时间
@@ -54,7 +55,14 @@ public class NetworkWrapper {
                 .baseUrl(BASE_URL)
                 .build();
 
+        retrofit_login = new Retrofit.Builder()
+                .client(httpClientBuilder.build())
+                .addConverterFactory(GsonConverterFactory.create())
+                .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
+                .baseUrl("http://" + AppSettings.SERVER_IP + ":" + AppSettings.SERVER_PORT)
+                .build();
         apiService = retrofit.create(ApiService.class);
+        apiService_login = retrofit_login.create(ApiService.class);
     }
 
     /**
@@ -65,7 +73,7 @@ public class NetworkWrapper {
      * @param password
      */
     public void getAuthToken(Subscriber<AuthToken> subscriber, String phone, String password) {
-        apiService.getAuthToken(base_authorization, phone, password, "password")
+        apiService_login.getAuthToken(base_authorization, phone, password, "password")
                 .subscribeOn(Schedulers.io())
                 .unsubscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())

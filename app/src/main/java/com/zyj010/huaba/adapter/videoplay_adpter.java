@@ -21,6 +21,7 @@ import com.zyj010.huaba.http.NetworkWrapper;
 import com.zyj010.huaba.manage.AppPreferences;
 import com.zyj010.huaba.model.Video;
 import com.zyj010.huaba.utils.Toasts;
+import com.zyj010.huaba.utils.VideoDownloadUtils;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -42,7 +43,7 @@ public class videoplay_adpter extends BaseAdapter {
     private ViewHolder[] viewHolders;
     private Activity activity;
     private String coursename;
-   int precent=0;
+    VideoDownloadUtils videoDownloadUtils;
   public  videoplay_adpter(Context ct,List<Video> videos,Activity activity,String coursename){
       this.videos=videos;
       this.ct=ct;
@@ -133,7 +134,7 @@ public class videoplay_adpter extends BaseAdapter {
 
                 @Override
                 public void onNext(String s) {
-                    star_upload(s);
+                    star_upload(s,myvideo,mPosition,mviewholder);
 
                 }
 
@@ -142,106 +143,106 @@ public class videoplay_adpter extends BaseAdapter {
             NetworkWrapper.get().getVideoUri(subscriber, AppPreferences.getInstance().getAuth(),id);
         }
 
-        private void star_upload(String s) {
-            final  String urlStr=s;
-            String fileName=myvideo.getVideoname();
-
-            String SDCard= Environment.getExternalStorageDirectory()+"";
-           final String pathName=SDCard+"/HuaBa/"+coursename+"/";//文件存储路径
-            File f=new File(pathName);
-
-            final File file=new File(pathName+"第"+(mPosition+1)+"集"+fileName);
-            if(!f.exists()){
-                f.mkdirs();//新建文件夹
-            }
-            if(file.exists()){
-                Toasts.show("文件已下载");
-                return;
-            }
 
 
-            final android.os.Handler handler=new android.os.Handler(){
-                @Override
-                public void handleMessage(Message msg) {
-                    // TODO Auto-generated method stub
-                    switch(msg.what) {
-                        case 0:Toasts.show("开始下载");
-                                mviewholder.progressBar.setVisibility(View.VISIBLE);
-                            break;
-                        case 1:mviewholder.download.setSelected(false);
-                            break;
-                        case 2:
-                            mviewholder.progressBar.setProgress(precent);
-                            break;
-                    }
-                }
-            };
-  new Thread(){
-                @Override
-                public void run() {
-                    Looper.prepare();
-                  handler.sendMessage(handler.obtainMessage(0,"start"));
-                    try {
-                /*
-                 * 通过URL取得HttpURLConnection
-                 * 要网络连接成功，需在AndroidMainfest.xml中进行权限配置
-                 * <uses-permission android:name="android.permission.INTERNET" />
-                 */
+    }
+    private void star_upload(String s,Video myvideo,int mPosition,ViewHolder mviewholder) {
+        final  String urlStr=s;
+        String fileName=myvideo.getVideoname();
 
-                        URL url = new URL(urlStr);
-                        URLConnection conn = url.openConnection();
-                        int contentLength = conn.getContentLength();
+        String SDCard= Environment.getExternalStorageDirectory()+"";
+        final String pathName=SDCard+"/HuaBa/"+coursename+"/";//文件存储路径
+        File f=new File(pathName);
 
-                        //取得inputStream，并将流中的信息写入SDCard
-
-                /*
-                 * 写前准备
-                 * 1.在AndroidMainfest.xml中进行权限配置
-                 * <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-                 * 取得写入SDCard的权限
-                 * 2.取得SDCard的路径： Environment.getExternalStorageDirectory()
-                 * 3.检查要保存的文件上是否已经存在
-                 * 4.不存在，新建文件夹，新建文件
-                 * 5.将input流中的信息写入SDCard
-                 * 6.关闭流
-                 */
-
-
-
-                        InputStream input = conn.getInputStream();
-
-
-                        OutputStream output = new FileOutputStream(file);
-                        //读取大文件
-                        byte[] buffer = new byte[1024];
-                        int len;
-                        int Count = 0;
-                        while ((len = input.read(buffer)) != -1) {
-                            output.write(buffer, 0, len);
-                            Count=Count+len;
-
-                            precent=Count*100/contentLength;
-                            Bundle bundle = new Bundle();
-                            bundle.putInt("progress",precent);
-                            handler.sendMessage(handler.obtainMessage(2,bundle));
-                            output.flush();
-                        }
-                        input.close();
-                        if (output != null) {
-                            output.close();
-                        }
-
-                        Toasts.show("下载完成");
-                        handler.sendMessage(handler.obtainMessage(1,"下载结束"));
-                        Looper.loop();
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                }
-            }.start();
-
-
+        final File file=new File(pathName+"第"+(mPosition+1)+"集"+fileName);
+        if(!f.exists()){
+            f.mkdirs();//新建文件夹
         }
+        if(file.exists()){
+            Toasts.show("文件已下载");
+            return;
+        }
+
+
+        final android.os.Handler handler=new android.os.Handler(){
+
+            @Override
+            public void handleMessage(Message msg) {
+                // TODO Auto-generated method stub
+                Bundle b = msg.getData();
+                int precent=b.getInt("progress");
+                switch(msg.what) {
+                    case 0:Toasts.show("开始下载");
+                        mviewholder.progressBar.setVisibility(View.VISIBLE);
+                        break;
+                    case 1:mviewholder.download.setSelected(false);
+                        break;
+                    case 2:
+                        mviewholder.progressBar.setProgress(videoDownloadUtils.getPrecent());
+                        break;
+                }
+            }
+        };
+        videoDownloadUtils=new VideoDownloadUtils(handler,urlStr,file);
+        videoDownloadUtils.startDownload();
+//        new Thread(){
+//            @Override
+//            public void run() {
+//                Looper.prepare();
+//                handler.sendMessage(handler.obtainMessage(0,"start"));
+//                try {
+//                /*
+//                 * 通过URL取得HttpURLConnection
+//                 * 要网络连接成功，需在AndroidMainfest.xml中进行权限配置
+//                 * <uses-permission android:name="android.permission.INTERNET" />
+//                 */
+//
+//                    URL url = new URL(urlStr);
+//                    URLConnection conn = url.openConnection();
+//                    int contentLength = conn.getContentLength();
+//
+//                    //取得inputStream，并将流中的信息写入SDCard
+//
+//                /*
+//                 * 写前准备
+//                 * 1.在AndroidMainfest.xml中进行权限配置
+//                 * <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+//                 * 取得写入SDCard的权限
+//                 * 2.取得SDCard的路径： Environment.getExternalStorageDirectory()
+//                 * 3.检查要保存的文件上是否已经存在
+//                 * 4.不存在，新建文件夹，新建文件
+//                 * 5.将input流中的信息写入SDCard
+//                 * 6.关闭流
+//                 */
+//
+//                    InputStream input = conn.getInputStream();
+//                    OutputStream output = new FileOutputStream(file);
+//                    //读取大文件
+//                    byte[] buffer = new byte[1024];
+//                    int len;
+//                    int Count = 0;
+//                    while ((len = input.read(buffer)) != -1) {
+//                        output.write(buffer, 0, len);
+//                        Count=Count+len;
+//                        precent=Count*100/contentLength;
+//                        Bundle bundle = new Bundle();
+//                        bundle.putInt("progress",precent);
+//                        handler.sendMessage(handler.obtainMessage(2,bundle));
+//                        output.flush();
+//                    }
+//                    input.close();
+//                    if (output != null) {
+//                        output.close();
+//                    }
+//
+//                    Toasts.show("下载完成");
+//                    handler.sendMessage(handler.obtainMessage(1,"下载结束"));
+//                    Looper.loop();
+//                } catch (Exception e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//        }.start();
 
 
     }
@@ -301,11 +302,19 @@ public class videoplay_adpter extends BaseAdapter {
         }
 
         private void play(String uri) {
-           VideoView videoview= (VideoView) activity.findViewById(R.id.videoview_play);
+            VideoView videoview= (VideoView) activity.findViewById(R.id.videoview_play);
+            String SDCard= Environment.getExternalStorageDirectory()+"/HuaBa/"+coursename+"/";
+            String path=SDCard+"第"+(mPosition+1)+"集"+myvideo.getVideoname();
+            File file=new File(path);
+            if(file.exists()){
+                videoview.setVideoPath(path);
+                videoview.requestFocus();
 
-            videoview.setVideoURI(Uri.parse(uri));
-            videoview.requestFocus();
-
+            }
+     else {
+                videoview.setVideoURI(Uri.parse(uri));
+                videoview.requestFocus();
+            }
         }
 
         private void smaller(ViewHolder mviewholder) {

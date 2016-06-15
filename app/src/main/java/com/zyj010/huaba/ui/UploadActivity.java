@@ -211,7 +211,7 @@ public class UploadActivity extends Activity implements View.OnClickListener ,Ad
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         Course course=my_courses.get(position);
-        Intent intent =new Intent(this,filesupload.class);
+        Intent intent =new Intent(this,FilesuploadActivity.class);
         intent.putExtra("id",course.getId());
         startActivity(intent);
     }

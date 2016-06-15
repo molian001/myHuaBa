@@ -36,7 +36,7 @@
             android:name=".ui.RegisterAcitivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
         <activity
-            android:name=".ui.forgetpassword"
+            android:name=".ui.ForgetpasswordActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
         <activity
             android:name=".ui.VideoActivity"
@@ -59,10 +59,10 @@
             android:name=".ui.UploadActivity"
             android:theme="@android:style/Theme.NoTitleBar"></activity>
         <activity
-            android:name=".ui.filesupload"
+            android:name=".ui.FilesuploadActivity"
             android:theme="@android:style/Theme.NoTitleBar"></activity>
         <activity
-            android:name=".ui.Video_coursesActivity"
+            android:name=".ui.VideoCoursesActivity"
             android:theme="@android:style/Theme.NoTitleBar"></activity>
         <activity
             android:name=".ui.SetupActivity"
@@ -71,7 +71,7 @@
             android:name=".ui.AlreadydownloadActivity"
             android:theme="@android:style/Theme.NoTitleBar"></activity>
         <activity
-            android:name=".ui.activity_download_videoplay"
+            android:name=".ui.AlreadyDownloadedVideoPlayActivity"
             android:screenOrientation="landscape"></activity>
 
 

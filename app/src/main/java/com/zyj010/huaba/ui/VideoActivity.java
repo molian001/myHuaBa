@@ -24,16 +24,19 @@ public class VideoActivity extends Activity implements View.OnClickListener{
     private ImageButton back;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+
         setTheme(android.R.style.Theme_NoTitleBar_Fullscreen);
         setContentView(R.layout.activity_video);
         init();
 
+        }
 //        videoview.setMediaController(mediaco);
 //        mediaco.setMediaPlayer(videoview);
 //        videoview.start();
 //        videoview.requestFocus();
-    }
+
 
     private void init() {
 //        mediaco=new MediaController(this);
@@ -69,7 +72,7 @@ public class VideoActivity extends Activity implements View.OnClickListener{
             startActivity(intent);
         }
         if(v==vedio){
-            Intent intent=new Intent(this,Video_coursesActivity.class);
+            Intent intent=new Intent(this,VideoCoursesActivity.class);
             startActivity(intent);
         }
         if(v==back){

@@ -1,5 +1,4 @@
-
-                                                   
+                                                                   
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -8,7 +7,7 @@
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:paddingLeft="40dp"
-        android:paddingRight="40dp" android:tag="layout/activity_register_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+        android:paddingRight="40dp" android:tag="layout/activity_register_0" xmlns:android="http://schemas.android.com/apk/res/android">
 
 
         <LinearLayout
@@ -89,8 +88,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_marginTop="20dp"
-                android:onClick="regist"
                 android:background="@drawable/btn_login_selecter"
+                android:onClick="regist"
                 android:text="注        册"
                 android:textColor="@color/DimGray"
                 android:textSize="30dp" />

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/tick"    android:state_accelerated="true"></item>
+<item android:drawable="@drawable/plus"    android:state_accelerated="false"></item>
+</selector>

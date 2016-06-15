@@ -16,4 +16,5 @@
     <color name="backgray">#d0cbca</color>
     <color name="text_color_black">#706f6f</color>
     <color name="text_color_gray">#d5d4d4</color>
+    <color name="color_transparent">#00000000</color>
 </resources>

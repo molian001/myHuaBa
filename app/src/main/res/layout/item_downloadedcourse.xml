@@ -1,50 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/ibtn_downloaded_videos_delete_courese"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/iv_delete_selecter"
+            android:scaleType="centerInside"
+            android:background="@drawable/pane"
+            android:visibility="gone"
+
+
+
+             />
+
         <ImageView
             android:id="@+id/iv_downloadvideo_course"
             android:layout_width="120dp"
             android:layout_height="90dp"
             android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:src="@drawable/beauty"
-            android:scaleType="fitCenter"/>
+            android:layout_toRightOf="@+id/ibtn_downloaded_videos_delete_courese"
+            android:scaleType="fitCenter"
+            android:src="@drawable/beauty" />
+
         <TextView
             android:id="@+id/tv_downloadvideo_coursename"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusableInTouchMode="true"
+            android:layout_toLeftOf="@+id/btn_show_videos"
+            android:layout_toRightOf="@+id/iv_downloadvideo_course"
             android:text="课程名"
             android:textColor="@color/Black"
-            android:textSize="20dp"
-            android:layout_toRightOf="@+id/iv_downloadvideo_course"
-            android:layout_marginLeft="15dp"
-            android:layout_centerVertical="true"/>
+            android:textSize="20dp" />
+
         <TextView
             android:id="@+id/tv_downloadvideo_mycoursenum"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv_downloadvideo_course"
+            android:layout_alignStart="@+id/tv_downloadvideo_coursename"
+            android:layout_marginBottom="15dp"
             android:text="共缓存：0集"
             android:textColor="@color/Gray"
-            android:textSize="15dp"
-            android:layout_marginBottom="15dp"
-            android:layout_alignBottom="@+id/iv_downloadvideo_course"
-            android:layout_alignStart="@+id/tv_downloadvideo_coursename" />
+            android:textSize="15dp" />
+
         <ImageButton
             android:id="@+id/btn_show_videos"
             android:layout_width="40dp"
             android:layout_height="20dp"
-            android:background="@drawable/btn_more_downloadcourses"
-            android:layout_centerVertical="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginRight="13dp"/>
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            android:background="@drawable/btn_more_downloadcourses" />
 
     </RelativeLayout>
+
     <ListView
         android:id="@+id/list_downloaded_video"
         android:layout_width="match_parent"

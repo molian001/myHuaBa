@@ -1,5 +1,6 @@
 package com.zyj010.huaba.adapter;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Environment;
 import android.view.LayoutInflater;
@@ -14,6 +15,7 @@ import android.widget.TextView;
 import com.zyj010.huaba.R;
 import com.zyj010.huaba.model.Course;
 import com.zyj010.huaba.model.Video;
+import com.zyj010.huaba.ui.AlreadydownloadActivity;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -26,11 +28,16 @@ public class download_mycourse_adpter extends BaseAdapter {
     private Context ct;
     private List<Course> courses;
     String path= Environment.getExternalStorageDirectory()+"/HuaBa/";
+    private int Editable=0;
+    private int SelectAll=0;
+    private download_video_adpter adpter;
 
 
-    public  download_mycourse_adpter(Context ct,List<Course> course){
+    public  download_mycourse_adpter(Context ct, List<Course> course, int Editable, int SelectAll){
         this.ct=ct;
         this.courses=course;
+        this.Editable=Editable;
+        this.SelectAll=SelectAll;
 
     }
     @Override
@@ -62,18 +69,53 @@ public class download_mycourse_adpter extends BaseAdapter {
             viewHolder.course_num= (TextView) convertView.findViewById(R.id.tv_downloadvideo_mycoursenum);
             viewHolder.show_videos= (ImageButton) convertView.findViewById(R.id.btn_show_videos);
             viewHolder.list_videos= (ListView) convertView.findViewById(R.id.list_downloaded_video);
+            viewHolder.delete= (ImageButton) convertView.findViewById(R.id.ibtn_downloaded_videos_delete_courese);
             convertView.setTag(viewHolder);
             course=courses.get(position);
+
             File[] files = new File(path+course.getCourse_name()+"/").listFiles();
             for(int i=0;i<files.length;i++){
                 Video video=new Video();
                 video.setVideoname(files[i].getName());
                 videos.add(video);
             }
-            download_video_adpter adpter=new download_video_adpter(ct,videos,course);
+            adpter=new download_video_adpter(ct,videos,course,Editable,SelectAll);
+            viewHolder.list_videos.setAdapter(adpter);
+            if(Editable==1){
+                viewHolder.delete.setVisibility(View.VISIBLE);
+                adpter=new download_video_adpter(ct,videos,course,Editable,SelectAll);
+                viewHolder.list_videos.setAdapter(adpter);
+            }
+
             viewHolder.course_name.setText(course.getCourse_name());
             viewHolder.course_num.setText("已缓存"+videos.size()+"集");
-            viewHolder.list_videos.setAdapter(adpter);
+            final ViewHolder finalViewHolder = viewHolder;
+            final Course finalCourse = course;
+            if(SelectAll==1){
+                viewHolder.delete.setSelected(true);
+                adpter=new download_video_adpter(ct,videos, finalCourse,Editable,SelectAll);
+            }
+            if(SelectAll==0){
+                viewHolder.delete.setSelected(false);
+                adpter=new download_video_adpter(ct,videos, finalCourse,Editable,SelectAll);
+                viewHolder.list_videos.setAdapter(adpter);
+            }
+            viewHolder.delete.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if(finalViewHolder.delete.isSelected()==false){
+                        finalViewHolder.delete.setSelected(true);
+                        SelectAll=1;
+                        adpter=new download_video_adpter(ct,videos, finalCourse,Editable,SelectAll);
+                        finalViewHolder.list_videos.setAdapter(adpter);
+                    }
+                    else  {finalViewHolder.delete.setSelected(false);
+                        SelectAll=0;
+                        adpter=new download_video_adpter(ct,videos, finalCourse,Editable,SelectAll);
+                        finalViewHolder.list_videos.setAdapter(adpter);
+                    }
+                }
+            });
 
             View listItem =adpter.getView(0, null, viewHolder.list_videos);
             listItem.measure(0, 0);
@@ -83,6 +125,7 @@ public class download_mycourse_adpter extends BaseAdapter {
             ViewGroup.LayoutParams params= viewHolder.list_videos.getLayoutParams();
             params.height=total+( viewHolder.list_videos.getDividerHeight()*(adpter.getCount()-1));
             viewHolder.list_videos.setLayoutParams(params);
+
         }
         else {viewHolder= (ViewHolder) convertView.getTag();
         }
@@ -97,6 +140,8 @@ public class download_mycourse_adpter extends BaseAdapter {
 
 
         final ViewHolder finalViewHolder = viewHolder;
+
+
         viewHolder.show_videos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -133,6 +178,7 @@ public class download_mycourse_adpter extends BaseAdapter {
         TextView course_num;
         ImageButton show_videos;
         ListView list_videos;
+        ImageButton delete;
 
     }
 }

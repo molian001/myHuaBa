@@ -35,19 +35,19 @@ public interface ApiService {
     @GET("courses/gettoken")
     Observable<ResponseBody> getUploadToken(@Header("Authorization") String authorization);
 
-    @GET("/courses")
+    @GET("courses")
     Observable<List<Course>> getCourses(@Query("userid") long id, @Query("type") String type);
 
-    @POST("/courses")
+    @POST("courses")
     Observable<ResponseBody> addCourse(@Header("Authorization") String authorization, @Body Course course);
 
-    @GET("/users/self")
+    @GET("users/self")
     Observable<User> getmyid(@Header("Authorization") String authorization);
 
-    @GET("/courses")
+    @GET("courses")
     Observable<List<Course>> getAllCourses();
 
-    @GET("/courses/videos/{vid}")
+    @GET("courses/videos/{vid}")
     Observable<ResponseBody> getVideoUri(@Header("Authorization") String authorization, @Path("vid") long vid);
 
 }

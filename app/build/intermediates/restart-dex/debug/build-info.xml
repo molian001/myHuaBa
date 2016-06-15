@@ -1,37 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="22"
-    density="xxhdpi"
+    abi="armeabi-v7a,armeabi"
+    api-level="19"
+    density="xhdpi"
     format="7"
-    timestamp="35391952963727" >
+    timestamp="135348718110793"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="1865" />
+        duration="3355" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="543" />
     <task
         name="instant-run-transform"
-        duration="14" />
+        duration="25" />
     <task
         name="verifier"
-        duration="1" />
+        duration="4" />
 
     <artifact
-        location="/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
-        type="DEX" />
+        location="F:\ANDROID WORK\HuaBa\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="35066357382625" >
+    <build timestamp="135203467837831" >
         <artifact
-            location="/home/runzii/文档/code/Studio/myHuaBa/app/build/outputs/apk/app-debug.apk"
+            location="F:\ANDROID WORK\HuaBa\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="35391952963727" >
+    <build
+        timestamp="135348718110793"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/home/runzii/文档/code/Studio/myHuaBa/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
-            type="DEX" />
+            location="F:\ANDROID WORK\HuaBa\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
